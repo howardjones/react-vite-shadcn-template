@@ -7,11 +7,16 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
+      '/ws': {
+                target: 'ws://localhost:3000',
+                ws: true,
+                changeOrigin: true,
+                rewrite: path => path.replace(/^\/ws/, '')
+            }    ,
       "/api": {
         target: "http://localhost:3000",
         changeOrigin: true,
-        secure: false,
-        ws: true,
+        secure: false,        
         rewrite: (path) => path.replace(/^\/api/, ''),
         configure: (proxy, _options) => {
           proxy.on('error', (err, _req, _res) => {

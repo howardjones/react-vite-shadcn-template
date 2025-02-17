@@ -1,3 +1,5 @@
+@import url('non.geist');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -81,3 +83,7 @@
   }
 }
 
+
+body {
+  font-family: 'Geist Variable';
+}

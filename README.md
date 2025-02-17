@@ -5,6 +5,9 @@ Messed with to work with React 19
 * tailwind@3
 * --legacy-peer-deps
 * https://mobisoftinfotech.com/resources/blog/react-19-shadcn-ui-integration-tutorial
+* https://tkdodo.eu/blog/using-web-sockets-with-react-query
+* https://usehooks.com/
+
 
 # React + TypeScript + Vite
 
