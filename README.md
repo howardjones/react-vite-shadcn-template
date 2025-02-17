@@ -1,7 +1,10 @@
 # NOTES
 
+Messed with to work with React 19
+
 * tailwind@3
 * --legacy-peer-deps
+* https://mobisoftinfotech.com/resources/blog/react-19-shadcn-ui-integration-tutorial
 
 # React + TypeScript + Vite
 
