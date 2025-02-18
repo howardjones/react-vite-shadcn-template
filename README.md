@@ -7,6 +7,9 @@ Messed with to work with React 19
 * https://mobisoftinfotech.com/resources/blog/react-19-shadcn-ui-integration-tutorial
 * https://tkdodo.eu/blog/using-web-sockets-with-react-query
 * https://usehooks.com/
+* https://github.com/arvind-iyer-2001/zepto-chip/blob/master/src/components/Chip.tsx
+* https://async.rdsx.dev/
+* https://github.com/birobirobiro/awesome-shadcn-ui
 
 
 # React + TypeScript + Vite
